@@ -1,0 +1,34 @@
+		h2{
+			
+			
+			width: 400px;
+			height: 50px;
+			line-height: 50px;
+			margin: 50px auto;
+			text-align: center;
+			text-shadow: 5px 5px 10px rgb(11, 128, 146);
+			letter-spacing: 0.5em; /*글자 간격 조절*/
+		}
+		#form_style{
+		
+			width: 400px;
+			height: 150px;
+			text-align: center;
+			margin: 50px auto;
+
+		}
+	
+		#title{
+			width: 400px;
+			height: 30px;
+			text-align: center;
+			margin: 2px 0px;
+		}
+
+		#content{
+			
+			width: 400px;
+			height: 86px;
+			margin: 2px 0px;
+
+		}
