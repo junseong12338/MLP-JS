@@ -6,35 +6,219 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>롤 전적 검색 OP.GG</title>
-    <link rel="stylesheet" href="./opgg.css">
-
-</head>
-
-<body>
-
-    <!-- 14칸 -->
+    <link rel="stylesheet" href="./header_opgg.css">
+    <link rel="stylesheet" href="./content_opgg.css">
     <header>
         <div id="nav">
-
             <ul>
-                <li><img id="nav_main_logo" src="./Image/opgglogo.svg" ></li>
-                <li><img id="nav_main_icon" src="./Image/img-navi-lol-white.svg" /></li>
-                <li id="nav_main_name"><b>리그오브레전드</b></li>
-
-                <li><label><a href="#"><img src="./Image/opgg.svg"/><span>데스크톱</span></a></label></li>
-                <li><a href="#"><img src="./Image/img-navi-valorant.svg"/><span>&nbsp;&nbsp;B&nbsp;&nbsp;</span><span>발로란트</span></a></li>
-                <li><a href="#"><img src="./Image/img-navi-pubg.svg"/><span>배틀그라운드</span></a></li>
-                <li><a href="#"><img src="./Image/img-navi-overwatch.svg"/><span>오버워치</span></a></li>
-                <li><a href="#"><img src="./Image/img_navi_bs.svg"/><span>이터널 리턴</span></a></li>
-                <li><a href="#"><img src="./Image/img_navi_esports.svg"/><span>이스포츠</span></a></li>
-                <li><a href="#"><img src="./Image/img-navi-talk.svg"/><span>톡피지지</span></a></li>
-                <li><a href="#"><img src="./Image/img-navi-duo.svg"/><span>Duo</span></a></li>
+                <span id="nav_main">
+                    <li><img id="nav_main_logo" src="./Image/opgglogo.svg"></li>
+                    <li><img id="nav_main_icon" src="./Image/img-navi-lol-white.svg" /></li>
+                    <li id="nav_main_name"><b>리그오브레전드</b></li>
+                </span>
+                <span class="nav_content">
+                    <li><a href="#"><img src="./Image/opgg.svg" /><span>데스크톱</span></a></li>
+                    <li><a href="#"><img src="./Image/img-navi-valorant.svg" />
+                            <img src="Image/circle.png"
+                                style=" margin-left :4px; margin-right: -5px;  width: 24px;height: 24px;">
+                            <span>발로란트</span></a></li>
+                    <li><a href="#"><img src="./Image/img-navi-pubg.svg" /><span>배틀그라운드</span></a></li>
+                    <li><a href="#"><img src="./Image/img-navi-overwatch.svg" /><span>오버워치</span></a></li>
+                    <li><a href="#"><img src="./Image/img_navi_bs.svg" /><span>이터널 리턴</span></a></li>
+                    <li><a href="#"><img src="./Image/img_navi_esports.svg" /><span>이스포츠</span></a></li>
+                    <li><a href="#"><img src="./Image/img-navi-talk.svg" /><span>톡피지지</span></a></li>
+                    <li><a href="#"><img src="./Image/img-navi-duo.svg" /><span>Duo</span></a></li>
+                </span>
+                <span id="nav_content_right" class="nav_content">
+                    <li><button>로그인</button></li>
+                    <li style="cursor:pointer;"><span>한국어</span><img src="./Image/triangle.png"
+                            style="width: 11px;height: 5px; transform: translate(0px, -4px); padding-right: 15px;" />
+                    </li>
+                    <li><img src="./Image/icon-world.svg" /></li>
+                    <li><img style=" cursor:pointer; width: 20px;height: 20px; transform: translate(0px, 7px);"
+                            src="./Image/icons8-sun.svg" />&nbsp;&nbsp;</li>
+                </span>
             </ul>
-
         </div>
 
+
+        <ul id="nav_footer">
+            <li><span style="    
+                    width: max-content;
+                    padding-bottom: 14px;
+                    border-bottom: 3px solid white;
+                    color: white;">홈</span></li>
+            <li><span>챔피언 분석</span></li>
+            <li><span id="mod">게임 모드</span></li>
+            <li><span>통계</span></li>
+            <li><span>랭킹</span></li>
+            <li><span>프로 관전</span></li>
+            <li><span>멀티서치</span></li>
+            <li><span>커뮤니티</span></li>
+
+        </ul>
+        <div id="line"></div>
     </header>
-    
-</body>
+
+    <div id="content">
+        <div>
+            <div id="logo">
+                <img src="Image/Main_logo.webp">
+            </div>
+
+            <div id="text_box">
+                <div id="text_box_one">
+                    <div style="color: #202D37;"><small>Region</small></div>
+                    <div style=" color: #9AA4B7; font-weight: 400; font-size: 17px;"><small>Korea</small>
+                        <img src="Image/triangle1.png"
+                            style="width: 11px;height: 5px; transform: translate(140px, -0px);">
+                    </div>
+                </div>
+
+                <div id="line1">
+
+                </div>
+
+                <div id="text_box_two">
+                    <div style="color: #202D37;"><small>Search</small><br>
+                        <input type="text" Placeholder="소환사명, 소환사명, ..." />
+                    </div>
+
+                </div>
+
+                <div id="text_box_three">
+                    <img src="Image/gg.png" />
+                </div>
+            </div> <br>
+
+
+            <div id="down_box">
+                <img src="Image/window.svg" style="transform: translate(-3px, 7px);">
+                <span>데스크탑 무료 다운로드</span>
+            </div><br>
+
+
+            <div id="banner_box">
+                <img src="Image/banner.png">
+            </div><br><br>
+
+            <div id="section_box">
+                <div id ="top_name"><label>OP.GG Talk 인기글</label></div>
+
+                <div id="section">
+
+                <div id ="decoration"> 
+                    <div id="article">
+                        <div id="num1">1</div>
+                        <div id="article_img"><img src="Image/num1.jpg"></div>
+                        <div id ="title">2023 PC방 이벤트(사장님이 우디르 숙련도 세계1등)...</div>
+                        <div id ="tooltip">5시간 전 &nbsp;&nbsp; 대장우디르</div>
+                    </div>
+                </div>
+
+                <div id ="decoration"> 
+                    <div id="article">
+                        <div id="num2">2</div>
+                        <div><img src="Image/num1.jpg"></div>
+                        <div id ="title">23년에는 무조건 잘될 녀석... ㄹㅇ <label>[92]</label></div><br>
+                        <div id ="tooltip">5시간 전 &nbsp;&nbsp; 대장우디르</div>
+                        </div>
+                    </div>
+                    
+                    <div id ="decoration"> 
+                        <div id="article">
+                            <div id="num3">3</div>
+                            <div id="article_img"><img src="Image/num1.jpg"></div>
+                            <div id ="title" >베글 보다가 놀랐다 &nbsp;<label>[92]</label></div>
+                            <div id ="tooltip">9시간 전 &nbsp;&nbsp; 갈기없는모데</div>
+                        </div>
+                    </div>
+
+                    <div id ="decoration"> 
+                        <div id="article">
+                            <div id="num">4</div>
+                            <div id="article_img"><img src="Image/num1.jpg"></div>
+                            <div id ="title">&lt;롤툰&gt;작년 우리들 &nbsp;<label>[70]</label></div>
+                            <div id ="tooltip">11시간 전 &nbsp;&nbsp; 햄츄야</div>
+                        </div>
+                    </div>
+
+                    <div id ="decoration"> 
+                        <div id="article">
+                            <div id="num">5</div>
+                            <div id="article_img"><img src="Image/num1.jpg"></div>
+                            <div id ="title">요즘 유치원 교육ㄷㄷ &nbsp;<label>[27]</label></div>
+                            <div id ="tooltip">11시간 전 &nbsp;&nbsp; opgg415599512906</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="section">
+
+                    <div id ="decoration"> 
+                        <div id="article">
+                            <div id="num">6</div>
+                            <div id="article_img"><img src="Image/num1.jpg"></div>
+                            <div id ="title">2023년도 개봉 예정인 영화 라인업 &nbsp;<label>[152]</label></div>
+                            <div id ="tooltip">10시간 전 &nbsp;&nbsp; 털쟁이집사</div>
+                        </div>
+                    </div>
+                
+
+                    <div id ="decoration"> 
+                        <div id="article">
+                            <div id="num">7</div>
+                            <div id="article_img"><img src="Image/num1.jpg"></div>
+                            <div id ="title">자크 떡국 짧만화 &nbsp;<label>[38]</label></div>
+                            <div id ="tooltip">10시간 전 &nbsp;&nbsp; 디백이</div>
+                        </div>
+                    </div>
+
+                    <div id ="decoration"> 
+                        <div id="article">
+                            <div id="num">8</div>
+                            <div id="article_img"><img src="Image/num1.jpg"></div>
+                            <div id ="title">디즈니 실사화 &nbsp;<label>[14]</label></div>
+                            <div id ="tooltip">9시간 전 &nbsp;&nbsp; smiling</div>
+                        </div>
+                    </div>
+
+                    <div id ="decoration"> 
+                        <div id="article">
+                            <div id="num">9</div>
+                            <div id="article_img"><img src="Image/num1.jpg"></div>
+                            <div id ="title">&lt;&lt;&gt;롤토체스 고인물 테스트&gt; &nbsp;<label>[25]</label></div>
+                            <div id ="tooltip">7시간 전 &nbsp;&nbsp; 5코3성전문가</div>
+                        </div>
+                    </div>
+
+
+                    <div id ="decoration"> 
+                        <div id="article">
+                            <div id="num" style="margin: 5px;">10</div>
+                            <div id="article_img"><img src="Image/num1.jpg"></div>
+                            <div id ="title">??? : 아이 엠 그라운드 자기소개 하기! &nbsp;<label>[33]</label></div>
+                            <div id ="tooltip">7시간 전 &nbsp;&nbsp; 네잘못아님</div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+</div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div></div>
+    </div>
+    </body>
 
 </html>
